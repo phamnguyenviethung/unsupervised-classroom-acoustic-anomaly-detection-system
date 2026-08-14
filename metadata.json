@@ -1,0 +1,6 @@
+{
+  "name": "Unsupervised Classroom Acoustic Anomaly Detection System",
+  "description": "DSP501 Digital Signal & Image Processing Final Assignment — Unsupervised Acoustic Anomaly Detection with PyTorch Autoencoders, Butterworth Filtering, STFT, and Streamlit Dashboard.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Classroom Acoustic Anomaly Detection System",
+  "description": "Unsupervised classroom acoustic anomaly detection system integrating DSP bandpass filtering, STFT spectral bandpower extraction, and PyTorch autoencoder models.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,4 @@
+pipeline,file_path,filename,true_label,predicted_label,anomaly_score,threshold,is_correct,error_type
+without_bandpower,data\normal\normal_0332.wav,normal_0332.wav,0,1,0.3911322355270386,0.30995428562164307,0,FP
+without_bandpower,data\normal\normal_0023.wav,normal_0023.wav,0,1,0.3604384958744049,0.30995428562164307,0,FP
+without_bandpower,data\normal\normal_0054.wav,normal_0054.wav,0,1,0.36302071809768677,0.30995428562164307,0,FP

@@ -1,0 +1,10 @@
+{
+  "name": "dsp501-classroom-acoustic-anomaly-detection",
+  "version": "1.0.0",
+  "description": "DSP501 Final Assignment — Unsupervised Classroom Acoustic Anomaly Detection System",
+  "scripts": {
+    "dev": "streamlit run app.py --server.port 3000 --server.address 0.0.0.0 --server.headless true",
+    "start": "streamlit run app.py --server.port 3000 --server.address 0.0.0.0 --server.headless true",
+    "build": "echo 'No build step needed for Streamlit app'"
+  }
+}

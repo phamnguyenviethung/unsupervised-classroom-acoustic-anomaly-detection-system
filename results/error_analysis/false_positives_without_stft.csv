@@ -1,0 +1,8 @@
+pipeline,file_path,filename,true_label,predicted_label,anomaly_score,threshold,is_correct,error_type
+without_stft,data\normal\normal_0266.wav,normal_0266.wav,0,1,6.535447120666504,0.39218610525131226,0,FP
+without_stft,data\normal\normal_0253.wav,normal_0253.wav,0,1,0.6547907590866089,0.39218610525131226,0,FP
+without_stft,data\normal\normal_0465.wav,normal_0465.wav,0,1,0.41909733414649963,0.39218610525131226,0,FP
+without_stft,data\normal\normal_0243.wav,normal_0243.wav,0,1,0.4244953989982605,0.39218610525131226,0,FP
+without_stft,data\normal\normal_0238.wav,normal_0238.wav,0,1,0.6780766844749451,0.39218610525131226,0,FP
+without_stft,data\normal\normal_0045.wav,normal_0045.wav,0,1,4.471577167510986,0.39218610525131226,0,FP
+without_stft,data\normal\normal_0192.wav,normal_0192.wav,0,1,0.59138423204422,0.39218610525131226,0,FP

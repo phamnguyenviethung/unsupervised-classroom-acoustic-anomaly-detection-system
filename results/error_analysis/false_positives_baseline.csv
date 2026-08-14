@@ -1,0 +1,17 @@
+pipeline,file_path,filename,true_label,predicted_label,anomaly_score,threshold,is_correct,error_type
+baseline,data\normal\normal_0055.wav,normal_0055.wav,0,1,0.6408699750900269,0.5885165333747864,0,FP
+baseline,data\normal\normal_0346.wav,normal_0346.wav,0,1,0.7269669771194458,0.5885165333747864,0,FP
+baseline,data\normal\normal_0522.wav,normal_0522.wav,0,1,0.7410991191864014,0.5885165333747864,0,FP
+baseline,data\normal\normal_0176.wav,normal_0176.wav,0,1,0.6968895196914673,0.5885165333747864,0,FP
+baseline,data\normal\normal_0361.wav,normal_0361.wav,0,1,0.6634796261787415,0.5885165333747864,0,FP
+baseline,data\normal\normal_0093.wav,normal_0093.wav,0,1,0.6177024841308594,0.5885165333747864,0,FP
+baseline,data\normal\normal_0391.wav,normal_0391.wav,0,1,0.7848919630050659,0.5885165333747864,0,FP
+baseline,data\normal\normal_0315.wav,normal_0315.wav,0,1,0.7091884613037109,0.5885165333747864,0,FP
+baseline,data\normal\normal_0339.wav,normal_0339.wav,0,1,0.5960391759872437,0.5885165333747864,0,FP
+baseline,data\normal\normal_0104.wav,normal_0104.wav,0,1,0.7298371195793152,0.5885165333747864,0,FP
+baseline,data\normal\normal_0330.wav,normal_0330.wav,0,1,0.6494610905647278,0.5885165333747864,0,FP
+baseline,data\normal\normal_0321.wav,normal_0321.wav,0,1,0.6664273142814636,0.5885165333747864,0,FP
+baseline,data\normal\normal_0493.wav,normal_0493.wav,0,1,0.6478655338287354,0.5885165333747864,0,FP
+baseline,data\normal\normal_0168.wav,normal_0168.wav,0,1,0.5918177962303162,0.5885165333747864,0,FP
+baseline,data\normal\normal_0192.wav,normal_0192.wav,0,1,0.7619272470474243,0.5885165333747864,0,FP
+baseline,data\normal\normal_0171.wav,normal_0171.wav,0,1,0.6476436257362366,0.5885165333747864,0,FP

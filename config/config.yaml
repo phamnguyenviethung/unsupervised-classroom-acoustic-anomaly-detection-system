@@ -1,0 +1,41 @@
+dataset:
+  data_root: "data"
+  normal_folder: "normal"
+  abnormal_folder: "abnormal"
+  sample_rate: 16000
+  duration_seconds: 5.0
+  train_ratio: 0.8
+  normalize_audio: true
+
+dsp:
+  low_cut: 80.0
+  high_cut: 7500.0
+  filter_order: 4
+  n_fft: 1024
+  hop_length: 256
+  win_length: 1024
+  bands:
+    - [80.0, 300.0]     # Low hum / HVAC
+    - [300.0, 1000.0]   # Fundamental speech frequencies
+    - [1000.0, 2500.0] # High speech formants & classroom chatter
+    - [2500.0, 4500.0] # Sibilance, furniture scrapes, chalk
+    - [4500.0, 6000.0] # High impulse noise, dropped items, glass
+    - [6000.0, 7500.0] # High acoustic harmonics & alarm cues
+
+model:
+  type: "autoencoder" # options: "autoencoder", "isolation_forest"
+  hidden_dims: [64, 32, 16]
+  learning_rate: 0.001
+  batch_size: 16
+  epochs: 40
+  threshold_percentile: 99.0
+
+robustness:
+  noise_levels: [0.01, 0.03, 0.05, 0.10]
+
+reproducibility:
+  seed: 42
+
+paths:
+  artifacts_dir: "artifacts"
+  results_dir: "results"

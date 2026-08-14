@@ -1,0 +1,6 @@
+pipeline,threshold,threshold_percentile,input_dim
+full_dsp,0.313587486743927,97.0,30
+without_bandpass,0.33581677079200745,97.0,30
+without_bandpower,0.30995428562164307,97.0,513
+without_stft,0.39218610525131226,97.0,30
+baseline,0.5885165333747864,97.0,67
